@@ -1,0 +1,5 @@
+@startuml
+collections "voters registry" as voters_registry
+collections "tokens registry" as token_registry
+voters_registry <-(0)-> token_registry
+@enduml

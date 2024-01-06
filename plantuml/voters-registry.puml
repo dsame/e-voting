@@ -1,0 +1,6 @@
+@startuml
+map "**Voter**" as voter {
+ token issued => yes or no
+ data => any set of data
+}
+@enduml

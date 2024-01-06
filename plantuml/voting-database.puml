@@ -1,0 +1,11 @@
+@startuml
+object "**Token**" as token
+map "**Cast Vote**" as cast_votes {
+	token id *-> token
+	vote choice => arbitrary voting subject
+	vote value => positive or negative number
+}
+note top of token
+The voter should be able to find their own vote.
+endnote
+@enduml
